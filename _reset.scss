@@ -112,7 +112,7 @@ textarea,
 }
 
 select {
-    background: none;
+    background: $select-bg-color !default;
     font-size: 100%
 }
 
