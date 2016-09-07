@@ -21,6 +21,7 @@ $selection-bg-color: #79bd9a !default;
 $selection-text-color: #fff !default;
 $table-border-collapse: collapse !default;
 $pre-overflow: auto !default;
+$select-bg-color: #fff !default;
 
 //
 // Inheriting box-sizing Probably Slightly Better Best-Practice
@@ -112,7 +113,7 @@ textarea,
 }
 
 select {
-    background: $select-bg-color !default;
+    background: $select-bg-color;
     font-size: 100%
 }
 
